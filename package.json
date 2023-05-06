@@ -1,0 +1,36 @@
+{
+  "name": "@blitzss/ui",
+  "version": "1.0.1",
+  "description": "UI library of Blitz Software Solutions",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlitzJB/blitz-ui.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "BlitzJB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlitzJB/blitz-ui/issues"
+  },
+  "homepage": "https://github.com/BlitzJB/blitz-ui#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.5"
+  },
+  "dependencies": {
+    "@trpc/react-query": "^10.25.0",
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
